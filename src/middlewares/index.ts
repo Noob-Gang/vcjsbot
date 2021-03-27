@@ -5,5 +5,5 @@ import Logger from './logger';
 
 export const initMiddleWares = (): void => {
     bot.use(Logger);
-    bot.use(Auth);
+    //bot.use(Auth);
 }
